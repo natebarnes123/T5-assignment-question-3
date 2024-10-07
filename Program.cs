@@ -7,6 +7,7 @@
             //Topic 5 question 3
             string answer1, answer2, answer3, answer4;
             int totalScore;
+            totalScore = 0;
             Console.WriteLine("Hello, you will now write my quiz.");
             Console.WriteLine("Begin.");
             Console.WriteLine();
@@ -16,7 +17,7 @@
             if (answer1.ToLower() == "tony stark")
             {
                 Console.WriteLine("Correct, tony stark is iron man");
-                totalScore = 1;
+                totalScore = totalScore + 1;
             }
             else
             {
@@ -29,7 +30,7 @@
             if (answer2 == "5")
             {
                 Console.WriteLine("Correct, 5 is the right answer.");
-                totalScore = 2;
+                totalScore = totalScore + 1;
             }
             else
             {
@@ -46,7 +47,7 @@
             if (answer3.ToLower() == "will smith" || answer3.ToLower() == "D")
             {
                 Console.WriteLine("Correct, will smith is amazing at acting and played that role perfectly.");
-                totalScore = 3;
+                totalScore = totalScore + 1;
             }
             else if (answer3.ToLower() == "A" || answer3.ToLower() == "peter parker")
             {
@@ -71,7 +72,7 @@
             if (answer4 == "50")
             {
                 Console.WriteLine("Correct, there is currently 50 states in America");
-                totalScore = 4;
+                totalScore = totalScore + 1;
             }
             else if (answer4 == "52")
             {
@@ -82,7 +83,20 @@
                 Console.WriteLine("Incorrect");
             }
             Console.WriteLine();
-            Console.WriteLine(" Congratulations, you got " + totalScore + " answers correct.");
+            Console.WriteLine("Your total score was " + totalScore + "/4");
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
